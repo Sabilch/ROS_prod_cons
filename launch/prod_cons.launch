@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="prod_cons_pkg" type="producer_node" name="producer_node" output="screen"> </node>
+    <node pkg="prod_cons_pkg" type="consumer_node" name="consumer_node" output="screen"> </node>
+</launch>
